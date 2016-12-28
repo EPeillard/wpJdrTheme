@@ -1,0 +1,41 @@
+/*
+Theme Name: Nantoroliste
+Author: Etienne Peillard
+Description: Thème Wordpress du Site de JdR de l'ECN
+*/
+
+
+.message{
+	position:fixed;
+	top:20%;
+	left:10%;
+	width:80%;
+	background-color:#FFF;
+	color:#000;
+	padding:1em;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* =Templates (Page d'inscription)
+-------------------------------------------------------------- */
+.page-template-connexionprivee-php .menu,
+.page-template-connexionprivee-php .top-menu,
+.page-template-connexionprivee-php .main-nav,
+.page-template-connexionprivee-php .footer-menu,
+.page-template-connexionprivee-php .sub-header-menu {
+	display: none;
+}
+
+#info {
+    background-color: #CCCCCC;
+    box-shadow: 0 1px 3px #666;
+    margin-top: 10px !important;
+	margin-bottom: 10px !important;
+    padding: 10px !important;
+    text-align: center;
+    text-shadow: 0 0 0 !important;
+    margin-left: 30%;
+    margin-right: 30%;
+}
